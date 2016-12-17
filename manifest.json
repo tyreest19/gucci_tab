@@ -1,0 +1,17 @@
+{
+	"name": "GucciTab Extension",
+	"version": "1.0",
+	"manifest_version": 2,
+	 "description": "Every opened tab will randomly 	
+	 	generate a picture of gucci mane and a sound 	
+	 	of a random adlub",
+	 "browser_action":	{
+		"default_icon": "tyreelogo.png"
+	},
+	"chrome_url_overrides" : {
+    	"newtab": "GucciPage.html"
+  },
+  "icons":{
+		"128": "tyreelogo.png"
+	}
+}
